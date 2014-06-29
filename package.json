@@ -2,7 +2,7 @@
   "author": "Nathan DELHAYE",
   "name": "nuage-log",
   "description": "Logging module for Nuage",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "repository": {
     "url": "https://github.com/theredcat/nuage-log.git"
   },
