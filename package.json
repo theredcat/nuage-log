@@ -2,19 +2,26 @@
   "author": "Nathan DELHAYE",
   "name": "nuage-log",
   "description": "Logging module for Nuage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "url": "https://github.com/theredcat/nuage-log.git"
   },
   "main": "./lib/log.js",
+  "scripts": {
+    "test" : "node_modules/nodeunit/bin/nodeunit test/test.js"
+  },
   "keywords": [
     "log",
     "winston",
     "nuage"
   ],
+  "devDependencies": {
+    "nodeunit" : "*",
+    "temp" : "0.6.x"
+  },
   "dependencies": {
     "winston": "0.7.x",
-    "nuage-utils": "0.1.0"
+    "nuage-utils": "0.2.0"
   },
   "engines": {
     "node": "*"
